@@ -30,10 +30,10 @@ function SelectGlass() {
           <div className="row">
             <div
               className="col-md-2 mt-5"
-              onClick={() => setCarUrl("./img/v1.png")}
+              onClick={() => setCarUrl("./glassesImage/v1.png")}
             >
               <img
-                src="./img/g1.jpg"
+                src="./glassesImage/g1.jpg"
                 alt="icon-black"
                 border="1px"
                 width="100%"
@@ -41,10 +41,10 @@ function SelectGlass() {
             </div>
             <div
               className="col-md-2 mt-5"
-              onClick={() => setCarUrl("./img/v2.png")}
+              onClick={() => setCarUrl("./glassesImage/v2.png")}
             >
               <img
-                src="./img/g2.jpg"
+                src="./glassesImage/g2.jpg"
                 alt="icon-black"
                 border="1px"
                 width="100%"
@@ -53,10 +53,10 @@ function SelectGlass() {
             </div>
             <div
               className="col-md-2 mt-5"
-              onClick={() => setCarUrl("./img/v3.png")}
+              onClick={() => setCarUrl("./glassesImage/v3.png")}
             >
               <img
-                src="./img/g3.jpg"
+                src="./glassesImage/g3.jpg"
                 alt="icon-black"
                 border="1px"
                 width="100%"
@@ -64,10 +64,10 @@ function SelectGlass() {
             </div>
             <div
               className="col-md-2 mt-5"
-              onClick={() => setCarUrl("./img/v4.png")}
+              onClick={() => setCarUrl("./glassesImage/v4.png")}
             >
               <img
-                src="./img/g4.jpg"
+                src="./glassesImage/g4.jpg"
                 alt="icon-black"
                 border="1px"
                 width="100%"
@@ -75,10 +75,10 @@ function SelectGlass() {
             </div>
             <div
               className="col-md-2 mt-5"
-              onClick={() => setCarUrl("./img/v5.png")}
+              onClick={() => setCarUrl("./glassesImage/v5.png")}
             >
               <img
-                src="./img/g5.jpg"
+                src="./glassesImage/g5.jpg"
                 alt="icon-black"
                 border="1px"
                 width="100%"
@@ -86,10 +86,10 @@ function SelectGlass() {
             </div>
             <div
               className="col-md-2 mt-5"
-              onClick={() => setCarUrl("./img/v6.png")}
+              onClick={() => setCarUrl("./glassesImage/v6.png")}
             >
               <img
-                src="./img/g6.jpg"
+                src="./glassesImage/g6.jpg"
                 alt="icon-black"
                 border="1px"
                 width="100%"
@@ -97,10 +97,10 @@ function SelectGlass() {
             </div>
             <div
               className="col-md-2 mt-3"
-              onClick={() => setCarUrl("./img/v7.png")}
+              onClick={() => setCarUrl("./glassesImage/v7.png")}
             >
               <img
-                src="./img/g7.jpg"
+                src="./glassesImage/g7.jpg"
                 alt="icon-black"
                 border="1px"
                 width="100%"
@@ -108,10 +108,10 @@ function SelectGlass() {
             </div>
             <div
               className="col-md-2 mt-3"
-              onClick={() => setCarUrl("./img/v8.png")}
+              onClick={() => setCarUrl("./glassesImage/v8.png")}
             >
               <img
-                src="./img/g8.jpg"
+                src="./glassesImage/g8.jpg"
                 alt="icon-black"
                 border="1px"
                 width="100%"
@@ -119,10 +119,10 @@ function SelectGlass() {
             </div>
             <div
               className="col-md-2 mt-3"
-              onClick={() => setCarUrl("./img/v9.png")}
+              onClick={() => setCarUrl("./glassesImage/v9.png")}
             >
               <img
-                src="./img/g9.jpg"
+                src="./glassesImage/g9.jpg"
                 alt="icon-black"
                 border="1px"
                 width="100%"
