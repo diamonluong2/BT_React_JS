@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProductList() {
+function ProductList({ users, onSelectUser, onDeleteUser }) {
   return (
     <table className="table">
       <thead>
@@ -13,7 +13,7 @@ function ProductList() {
         </tr>
       </thead>
       <tbody>
-        {/* {users.map((user) => {
+        {users.map((user) => {
           return (
             <tr key={user.id}>
               <td>{user.firstName}</td>
@@ -36,7 +36,7 @@ function ProductList() {
               </td>
             </tr>
           );
-        })} */}
+        })}
       </tbody>
     </table>
   );

@@ -68,6 +68,9 @@ function ProductManagement() {
     // ?: Khi state searchByEmail thay đổi, ta muốn gọi lại hàm fetchUser
     // => Đưa state searchByEmail vào array của useEffect
   };
+  useEffect(() => {
+    fetchUsers();
+  }, [searchByEmail]);
 
   return (
     <div className="container-fluid">
@@ -76,16 +79,26 @@ function ProductManagement() {
       <div className="card">
         <div className="card-header bg-dark text-white">User Form</div>
         <div className="card-body">
-          <ProductForm />
+          <ProductForm
+            user={selectedUser}
+            onSubmit={handleSubmit}
+            onReset={() => {
+              setSelectedUser({});
+            }}
+          />
         </div>
       </div>
 
       <div className="mt-4">
-        <Search />
+        <Search onSearch={handleSearch} />
       </div>
 
       <div className="mt-4">
-        <ProductList />
+        <ProductList
+          users={users}
+          onSelectUser={handleSelectUser}
+          onDeleteUser={handleDeleteUser}
+        />
       </div>
     </div>
   );
